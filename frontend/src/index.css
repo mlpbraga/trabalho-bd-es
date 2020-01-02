@@ -1,0 +1,64 @@
+* {
+  margin: 0px;
+  padding: 0px;
+  outline: 0px;
+  box-sizing: border-box;
+  font-size: 16px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+form {
+  display: inline-grid;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  background: #fafafa;
+  color: #333;
+}
+
+button {
+  height: 40px;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 15px;
+  background: #333A59;
+  color: #ffff;
+  border-color: transparent;
+  cursor: pointer;
+}
+
+button:hover {
+  background: #ff7b9c;
+}
+
+label {
+  background: #dfe1ec;
+  border-radius: 5px 5px 0px 0px;
+}
+
+p {
+  margin-bottom: 15px;
+}
+
+.link-button {
+  color: #333A59;
+}
+
+.link-button:hover {
+  color: #ff7b9c;
+}
+
+input:-webkit-autofill,
+input:-webkit-autofill:hover, 
+input:-webkit-autofill:focus,
+textarea:-webkit-autofill,
+textarea:-webkit-autofill:hover,
+textarea:-webkit-autofill:focus,
+select:-webkit-autofill,
+select:-webkit-autofill:hover,
+select:-webkit-autofill:focus {
+  -webkit-box-shadow: 0 0 0px 1000px #ffffff inset;
+  transition: background-color 5000s ease-in-out 0s;
+  -webkit-text-size-adjust: none;
+}

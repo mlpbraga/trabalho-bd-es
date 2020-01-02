@@ -1,0 +1,63 @@
+.signup-warning {
+  padding: 20px;
+  background: #dfe1ec;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 5px 5px 40px 5px;
+  text-align: justify;
+}
+
+.signup-form {
+  display: inline-flex;
+}
+
+.radio-label {
+  background: transparent;
+  border: solid 1px transparent;
+}
+
+input[type='radio'] {
+  -webkit-font-smoothing: antialiased;
+  resize: none;
+  margin: 0px 3px 0px 8px;
+  width: 12px;
+  border: solid 1px transparent;
+}
+
+input[type='date'] {
+  width: 100%;
+  -webkit-appearance: none;
+  -moz-appearance: none;
+}
+
+.field {
+  display: inline-grid;
+  margin: 15px 0px 15px 0px;
+}
+
+.signup-input {
+  display: inline-grid;
+  width: 300px;
+}
+
+input {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 0px 0px 5px 5px;
+  border: solid 1px #5d6aa2;
+  margin: 0px 0px 10px 0px;
+}
+
+form a {
+  margin: 10px;
+}
+
+.error-box {
+  border: solid 1px red;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  background: #ff000066;
+  color: red;
+  font-size: 14px;
+}

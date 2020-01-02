@@ -1,0 +1,12 @@
+npx sequelize seed:generate --name store
+npx sequelize seed:generate --name cashier
+npx sequelize seed:generate --name employee
+npx sequelize seed:generate --name user
+npx sequelize seed:generate --name supplier
+npx sequelize seed:generate --name product
+npx sequelize seed:generate --name order
+npx sequelize seed:generate --name order-product
+npx sequelize seed:generate --name cashier-product
+npx sequelize seed:generate --name supplier-product
+npx sequelize seed:generate --name user-cashier
+npx sequelize seed:generate --name employee-store

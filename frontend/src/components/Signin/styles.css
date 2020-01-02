@@ -1,0 +1,42 @@
+input {
+  padding: 15px;
+  font-size: 16px;
+  border-radius: 0px 0px 5px 5px;
+  border: solid 1px #5d6aa2;
+  margin: 0px 0px 10px 0px;
+}
+
+fieldset {
+  border: transparent;
+}
+
+label {
+  border: solid 1px #5d6aa2;
+  margin: 10px 0px 0px 0px;
+}
+
+button {
+  margin: 10px auto;
+}
+
+.siginin-container {
+  display: inline-flex;
+}
+
+.signin-input {
+  display: inline-grid;
+  width: 300px;
+}
+form a {
+  margin: 10px;
+}
+
+.error-box {
+  border: solid 1px red;
+  padding: 15px;
+  border-radius: 10px;
+  width: 300px;
+  background: #ff000066;
+  color: red;
+  font-size: 14px;
+}

@@ -1,0 +1,26 @@
+{
+  "development": {
+    "username": "projetobd",
+    "password": "senha123",
+    "database": "projetobd",
+    "host": "postgres",
+    "dialect": "postgres",
+    "define": {
+      "timestamps": true
+    }
+  },
+  "test": {
+    "username": "projetobd",
+    "password": "senha123",
+    "database": "projetobd",
+    "host": "postgres",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "projetobd",
+    "password": "senha123",
+    "database": "projetobd",
+    "host": "postgres",
+    "dialect": "postgres"
+  }
+}

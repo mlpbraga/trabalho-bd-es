@@ -1,0 +1,114 @@
+.sidebar {
+  background: #333A59;
+  position: absolute;
+  padding: 15px;
+  width: 240px;
+  max-width: 240px;
+  height: 85vh;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  text-align: left;
+}
+
+.section {
+  border-bottom: 1px solid #fff;
+  justify-content: center;
+}
+
+.section-label {
+  border: transparent;
+  font-size: 20px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  background: #333A59;
+  color: #fff;
+}
+.sidebar-item {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.sidebar-item-content {
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  display: flex;
+  align-items: center;
+  width: 100%;
+}
+
+.sidebar-item-icon {
+  margin-right: 6px;
+}
+
+.sidebar-item-text {
+  width: 100%;
+}
+
+.sidebar-item-expand-arrow {
+  font-size: 1.2rem !important;
+}
+
+.sidebar-item-expand-arrow-expanded {
+  color: #09bb12;
+  font-weight: bold;
+}
+
+.side-element {
+  display: flex;
+}
+
+.side-element a{
+  color: #fff;
+  display: grid;
+  font-size: 20px;
+  border-radius: 5px;
+  padding: 5px;
+  text-decoration: none;
+}
+
+.employee-icon {
+  background: url('./icons/employee.svg') no-repeat center;
+  height: 30px;
+  width: 26px;
+  background-size: 65%;
+}
+
+.user-icon {
+  background: url('./icons/user.svg') no-repeat center;
+  height: 30px;
+  width: 26px;
+  background-size: 65%;
+}
+
+.order-icon {
+  background: url('./icons/order.svg') no-repeat center;
+  height: 30px;
+  width: 26px;
+  background-size: 65%;
+}
+
+.sell-icon {
+  background: url('./icons/sell.svg') no-repeat center;
+  height: 30px;
+  width: 26px;
+  background-size: 65%;
+}
+
+.supplier-icon {
+  background: url('./icons/supplier.svg') no-repeat center;
+  height: 30px;
+  width: 26px;
+  background-size: 65%;
+}
+
+.product-icon {
+  background: url('./icons/product.svg') no-repeat center;
+  height: 30px;
+  width: 26px;
+  background-size: 65%;
+}
+
+.icon {
+  padding-top: 3px;
+}

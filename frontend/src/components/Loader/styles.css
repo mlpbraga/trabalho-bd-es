@@ -1,0 +1,6 @@
+.loading {
+  background: url('./loading.svg') no-repeat center;
+  color: transparent;
+  height: 60px;
+  background-size: 5%;
+}

@@ -1,0 +1,23 @@
+{
+  "port": 5555,
+  "host": "0.0.0.0",
+  "log": "debug",
+  "database": {
+    "host": "postgres",
+    "user": "projetobd",
+    "username": "projetobd",
+    "database": "projetobd",
+    "password": "senha123",
+    "port": "5432"
+  },
+  "jwt": {
+    "issuer": "rest.api.template",
+    "buyerLifetimeSeconds": 15552000,
+    "buyerERPSeconds": 15552000,
+    "algorithm": "HS256"
+  },
+  "basicAuth": {
+    "login": "teste",
+    "password": "123"
+  }
+}

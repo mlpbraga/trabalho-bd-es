@@ -1,0 +1,22 @@
+.qtd-input {
+  width: 100px;
+  height: 40px;
+}
+
+.prod-select {
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+}
+
+.store-cashier-select {
+  width: 100%;
+  padding: 10px;
+  height: 40px;
+}
+
+.bordered-div {
+  border: 1px solid black;
+  height: 400px;
+  overflow-y: scroll;
+}

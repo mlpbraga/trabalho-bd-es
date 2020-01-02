@@ -1,0 +1,12 @@
+.about {
+  padding: 20px;
+  background: #dfe1ec;
+  padding: 15px;
+  border-radius: 5px;
+  margin: 5px 5px 40px 5px;
+  text-align: justify;
+}
+
+.about a {
+  font-size: 16px;
+}
